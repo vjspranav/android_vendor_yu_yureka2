@@ -186,6 +186,7 @@ PRODUCT_COPY_FILES += \
     vendor/cmcc/wt89536/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/cmcc/wt89536/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/cmcc/wt89536/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
+    vendor/cmcc/wt89536/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \
     vendor/cmcc/wt89536/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/cmcc/wt89536/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/cmcc/wt89536/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
@@ -214,6 +215,7 @@ PRODUCT_COPY_FILES += \
     vendor/cmcc/wt89536/proprietary/lib64/libjni_jpegstream.so:system/lib64/libjni_jpegstream.so \
     vendor/cmcc/wt89536/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/cmcc/wt89536/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/cmcc/wt89536/proprietary/lib64/libqcomfm_jni.so:system/lib64/libqcomfm_jni.so \
     vendor/cmcc/wt89536/proprietary/lib64/libqti-iop.so:system/lib64/libqti-iop.so \
     vendor/cmcc/wt89536/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/cmcc/wt89536/proprietary/lib64/libteec.so:system/lib64/libteec.so \
@@ -239,6 +241,7 @@ PRODUCT_COPY_FILES += \
     vendor/cmcc/wt89536/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/cmcc/wt89536/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/cmcc/wt89536/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
+    vendor/cmcc/wt89536/proprietary/lib/libqcomfm_jni.so:system/lib/libqcomfm_jni.so \
     vendor/cmcc/wt89536/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/cmcc/wt89536/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/cmcc/wt89536/proprietary/lib/libtfa9895.so:system/lib/libtfa9895.so \
@@ -1477,7 +1480,9 @@ PRODUCT_PACKAGES += \
     colorservice \
     ims \
     imssettings \
+    SmartcardService \
     com.qti.location.sdk \
+    org.simalliance.openmobileapi \
     qcrilhook \
     qdcm_calib_data_otm1901a_1080p_video_DJ_otp \
     qdcm_calib_data_r63350_1080p_video_Tianma
