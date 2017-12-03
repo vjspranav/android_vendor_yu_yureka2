@@ -220,7 +220,6 @@ PRODUCT_COPY_FILES += \
     vendor/cmcc/wt89536/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/cmcc/wt89536/proprietary/lib64/libteec.so:system/lib64/libteec.so \
     vendor/cmcc/wt89536/proprietary/lib64/libtfa9895.so:system/lib64/libtfa9895.so \
-    vendor/cmcc/wt89536/proprietary/lib64/libwifi-hal-qcom.so:system/lib64/libwifi-hal-qcom.so \
     vendor/cmcc/wt89536/proprietary/lib/hw/audio.primary.msm8953.so:system/lib/hw/audio.primary.msm8953.so \
     vendor/cmcc/wt89536/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
     vendor/cmcc/wt89536/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
@@ -245,21 +244,6 @@ PRODUCT_COPY_FILES += \
     vendor/cmcc/wt89536/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/cmcc/wt89536/proprietary/lib/libqti_performance.so:system/lib/libqti_performance.so \
     vendor/cmcc/wt89536/proprietary/lib/libtfa9895.so:system/lib/libtfa9895.so \
-    vendor/cmcc/wt89536/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/cmcc/wt89536/proprietary/lib/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
-    vendor/cmcc/wt89536/proprietary/lib/modules/backlight.ko:system/lib/modules/backlight.ko \
-    vendor/cmcc/wt89536/proprietary/lib/modules/br_netfilter.ko:system/lib/modules/br_netfilter.ko \
-    vendor/cmcc/wt89536/proprietary/lib/modules/evbug.ko:system/lib/modules/evbug.ko \
-    vendor/cmcc/wt89536/proprietary/lib/modules/generic_bl.ko:system/lib/modules/generic_bl.ko \
-    vendor/cmcc/wt89536/proprietary/lib/modules/lcd.ko:system/lib/modules/lcd.ko \
-    vendor/cmcc/wt89536/proprietary/lib/modules/mmc_block_test.ko:system/lib/modules/mmc_block_test.ko \
-    vendor/cmcc/wt89536/proprietary/lib/modules/mmc_test.ko:system/lib/modules/mmc_test.ko \
-    vendor/cmcc/wt89536/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
-    vendor/cmcc/wt89536/proprietary/lib/modules/rdbg.ko:system/lib/modules/rdbg.ko \
-    vendor/cmcc/wt89536/proprietary/lib/modules/spidev.ko:system/lib/modules/spidev.ko \
-    vendor/cmcc/wt89536/proprietary/lib/modules/test-iosched.ko:system/lib/modules/test-iosched.ko \
-    vendor/cmcc/wt89536/proprietary/lib/modules/ufs_test.ko:system/lib/modules/ufs_test.ko \
-    vendor/cmcc/wt89536/proprietary/lib/modules/wil6210.ko:system/lib/modules/wil6210.ko \
     vendor/cmcc/wt89536/proprietary/media/tfa98xx.cnt:system/media/tfa98xx.cnt \
     vendor/cmcc/wt89536/proprietary/vendor/bin/mdtpd:system/vendor/bin/mdtpd \
     vendor/cmcc/wt89536/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
