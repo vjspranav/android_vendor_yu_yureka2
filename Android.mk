@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),wt89536)
+ifeq ($(TARGET_DEVICE),yureka2)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff
