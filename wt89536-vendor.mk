@@ -134,7 +134,6 @@ PRODUCT_COPY_FILES += \
     vendor/cmdc/wt89536/proprietary/lib64/hw/audio.primary.msm8953.so:system/lib64/hw/audio.primary.msm8953.so \
     vendor/cmdc/wt89536/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
     vendor/cmdc/wt89536/proprietary/lib64/hw/fingerprint.goodix.so:system/lib64/hw/fingerprint.goodix.so \
-    vendor/cmdc/wt89536/proprietary/lib64/hw/fingerprint.msm8953.so:system/lib64/hw/fingerprint.msm8953.so \
     vendor/cmdc/wt89536/proprietary/lib64/hw/gxfingerprint.default.so:system/lib64/hw/gxfingerprint.default.so \
     vendor/cmdc/wt89536/proprietary/lib64/libcom_fingerprints_service.so:system/lib64/libcom_fingerprints_service.so \
     vendor/cmdc/wt89536/proprietary/lib64/libfp_client.so:system/lib64/libfp_client.so \
