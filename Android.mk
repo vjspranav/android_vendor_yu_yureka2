@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),wt89536)
+ifeq ($(TARGET_DEVICE),yureka2)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libts_detected_face_hal
 LOCAL_MODULE_OWNER := cmdc
@@ -30,7 +30,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libts_face_beautify_hal
-LOCAL_MODULE_OWNER := cmdc
+LOCAL_MODULE_OWNER := yu
 LOCAL_SRC_FILES := proprietary/vendor/lib/libts_face_beautify_hal.so
 LOCAL_MULTILIB := 32
 LOCAL_MODULE_TAGS := optional
@@ -426,7 +426,7 @@ ifeq ($(LOCAL_PATH)/radio, $(wildcard $(LOCAL_PATH)/radio))
 RADIO_FILES := $(wildcard $(LOCAL_PATH)/radio/*)
 $(foreach f, $(notdir $(RADIO_FILES)), \
     $(call add-radio-file,radio/$(f)))
-$(call add-radio-file,../../../device/cmdc/wt89536/radio/filesmap)
+$(call add-radio-file,../../../device/yu/yureka2/radio/filesmap)
 
 endif
 
