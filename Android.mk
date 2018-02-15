@@ -46,18 +46,6 @@ LOCAL_SRC_FILES_32 := proprietary/lib/libtfa9895.so
 LOCAL_MODULE_TAGS := optional
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := IFAAService
-LOCAL_MODULE_OWNER := cmdc
-LOCAL_SRC_FILES := proprietary/priv-app/IFAAService/IFAAService.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := SmartcardService
 LOCAL_MODULE_OWNER := cmdc
 LOCAL_SRC_FILES := proprietary/vendor/app/SmartcardService/SmartcardService.apk
